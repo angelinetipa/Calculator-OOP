@@ -16,8 +16,11 @@ if operation == "1":
     calc.add(num1, num2)
 
 # if math operation is subtraction, output difference of two numbers
-if operation == "1":
+if operation == "2":
     calc.subtract(num1, num2)
+
 # if math operation is multiplication, output product of two numbers
+if operation == "3":
+    calc.multiply(num1, num2)
 # if math operation is division, output quotient of two numbers
 # input for try again
