@@ -7,5 +7,7 @@ class Simple_Calculator:
     # def subtract
     def subtract(self, num1, num2):
         return f"{num1} - {num2} = ", float(num1) - float(num2)
-# def multiply
+    # def multiply
+    def multipl(self, num1, num2):
+        return f"{num1} x {num2} = ", float(num1) * float(num2)
 # def divide
