@@ -1,5 +1,5 @@
 # class Calculator
-class Simple_Calculator:
+class SimpleCalculator:
 
     # def add
     def add(self, num1, num2):
