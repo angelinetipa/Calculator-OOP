@@ -23,6 +23,14 @@ class UserInterface:
     def ask_num(self):
         number = input("Enter a number:  ").strip()
         return number
+    
+    def display_sum(self, num1, num2, answer):
+        from colorama import Fore, Style
+        print(f"{Fore.MAGENTA}{num1} + {num2} = {answer}{Style.RESET_ALL}")
+    
+    def display_subtract(self, num1, num2, answer):
+        from colorama import Fore, Style
+        print(f"{Fore.GREEN}{num1} - {num2} = {answer}{Style.RESET_ALL}")
      
     # def last_message
     def last_message(self):
