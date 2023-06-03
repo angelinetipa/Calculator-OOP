@@ -43,4 +43,4 @@ class UserInterface:
     # def last_message
     def display_last_message(self):
         from colorama import Style
-        print(f"{Style.BRIGHT}Thank you for using my Simple App Calculator! ♥{Style.RESET_ALL}\n ")
+        print(f"{Style.BRIGHT}\nThank you for using my Simple App Calculator! ♥{Style.RESET_ALL}\n ")

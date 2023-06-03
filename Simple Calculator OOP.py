@@ -12,11 +12,11 @@ ui_tipa = UserInterfaceTipa()
 try_again = ""
 while try_again != "no":
     # input for math operation
-    operation = ui.ask_user_operation()
+    operation = ui_tipa.ask_user_operation()
 
     # input for two numbers
-    num1 = ui.ask_user_number()
-    num2 = ui.ask_user_number()
+    num1 = ui_tipa.ask_user_number()
+    num2 = ui_tipa.ask_user_number()
 
     # if math operation is addtion, output sum of two numbers
     if operation == "1":
@@ -40,7 +40,7 @@ while try_again != "no":
 
     # if math operation is modulus, output remainder of two numbers
     if operation == "5":
-        answer = calc_tipa.remainder(num1, num2)
+        answer = calc_tipa.remainder_ofdiv(num1, num2)
         ui_tipa.display_remainder(num1, num2, answer)
 
      # if math operation is exponent, output exponentialpower value
@@ -52,7 +52,7 @@ while try_again != "no":
     if operation == "7":
         answer = calc_tipa.integer_division(num1, num2)
         ui_tipa.display_integerquot(num1, num2, answer)
-        
+
     # input for try again
     try_again = input("Do you want to try again (yes/no)?😁  ").strip().lower()
 
