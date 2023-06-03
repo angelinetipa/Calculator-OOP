@@ -8,3 +8,7 @@ class CalculatorTipa(SimpleCalculator):
     def exponent(self, num1, num2):
         exponential_power = num1 ** num2
         return exponential_power
+    
+    def integer_division(self, num1, num2):
+        intger_quotient = num1 // num2
+        return intger_quotient
