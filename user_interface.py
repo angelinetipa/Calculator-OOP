@@ -41,6 +41,6 @@ class UserInterface:
         print(f"{Fore.CYAN}{num1} / {num2} = {answer}{Style.RESET_ALL}")
 
     # def last_message
-    def last_message(self):
+    def display_last_message(self):
         from colorama import Style
         print(f"{Style.BRIGHT}Thank you for using my Simple App Calculator! ♥{Style.RESET_ALL}\n ")
