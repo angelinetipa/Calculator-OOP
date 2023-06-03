@@ -18,3 +18,15 @@ class UserInterfaceTipa(UserInterface):
                 return operation
             time.sleep(2.5)
             os.system("cls")  
+    
+    def display_remainder(self, num1, num2, answer):
+        from colorama import Fore, Style
+        print(f"{Fore.LIGHTRED_EX}{num1} / {num2} = {Style.RESET_ALL}", answer)
+
+    def display_exponentialpow(self, num1, num2, answer):
+        from colorama import Fore, Style
+        print(f"{Fore.LIGHTMAGENTA_EX}{num1} ^ {num2} = {Style.RESET_ALL}", answer)
+
+    def display_integerquot(self, num1, num2, answer):
+        from colorama import Fore, Style
+        print(f"{Fore.LIGHTGREEN_EX}{num1} / {num2} = {Style.RESET_ALL}", answer)
