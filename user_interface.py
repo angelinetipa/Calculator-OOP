@@ -2,7 +2,7 @@
 class UserInterface:
     
     # def ask_operation
-    def ask_operation(self):
+    def ask_user_operation(self):
         import time, os
         from colorama import Fore, Back, Style
 
@@ -20,7 +20,7 @@ class UserInterface:
             os.system("cls")    
 
     # def ask_2num
-    def ask_num(self):
+    def ask_user_number(self):
         number = input("Enter a number:  ").strip()
         return number
     
