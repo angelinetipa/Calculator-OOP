@@ -28,13 +28,14 @@ while try_again != "no":
     if operation == "3":
         answer = calc.multiply(num1, num2)
         ui.display_product(num1, num2, answer)
+        
     # if math operation is division, output quotient of two numbers
     if operation == "4":
         answer = calc.divide(num1, num2)
         ui.display_quotient(num1, num2, answer)
-        
+
     # input for try again
     try_again = input("Do you want to try again (yes/no)?😁  ").strip().lower()
 
 # last message
-ui.last_message( )
+ui.display_last_message( )

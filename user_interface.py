@@ -21,24 +21,24 @@ class UserInterface:
 
     # def ask_2num
     def ask_user_number(self):
-        number = input("Enter a number:  ").strip()
+        number = float(input("Enter a number:  "))
         return number
     
     def display_sum(self, num1, num2, answer):
         from colorama import Fore, Style
-        print(f"{Fore.MAGENTA}{num1} + {num2} = {answer}{Style.RESET_ALL}")
+        print(f"{Fore.MAGENTA}{num1} + {num2} = {Style.RESET_ALL}", answer)
     
     def display_difference(self, num1, num2, answer):
         from colorama import Fore, Style
-        print(f"{Fore.GREEN}{num1} - {num2} = {answer}{Style.RESET_ALL}")
+        print(f"{Fore.GREEN}{num1} - {num2} = {Style.RESET_ALL}", answer)
      
     def display_product(self, num1, num2, answer):
         from colorama import Fore, Style
-        print(f"{Fore.YELLOW}{num1} x {num2} = {answer}{Style.RESET_ALL}")
+        print(f"{Fore.YELLOW}{num1} x {num2} = {Style.RESET_ALL}", answer)
 
     def display_quotient(self, num1, num2, answer):
         from colorama import Fore, Style
-        print(f"{Fore.CYAN}{num1} / {num2} = {answer}{Style.RESET_ALL}")
+        print(f"{Fore.CYAN}{num1} / {num2} = {Style.RESET_ALL}", answer)
 
     # def last_message
     def display_last_message(self):
