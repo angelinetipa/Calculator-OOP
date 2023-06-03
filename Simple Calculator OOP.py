@@ -38,10 +38,21 @@ while try_again != "no":
         answer = calc_tipa.divide(num1, num2)
         ui_tipa.display_quotient(num1, num2, answer)
 
-    # if math operation is division, output quotient of two numbers
+    # if math operation is modulus, output remainder of two numbers
     if operation == "5":
         answer = calc_tipa.remainder(num1, num2)
-        ui_tipa.display_quotient(num1, num2, answer)
+        ui_tipa.display_remainder(num1, num2, answer)
+
+     # if math operation is exponent, output exponentialpower value
+    if operation == "6":
+        answer = calc_tipa.exponent(num1, num2)
+        ui_tipa.display_exponentialpow(num1, num2, answer)
+
+     # if math operation is integer division, output integer of quotient of two numbers
+    if operation == "7":
+        answer = calc_tipa.integer_division(num1, num2)
+        ui_tipa.display_integerquot(num1, num2, answer)
+        
     # input for try again
     try_again = input("Do you want to try again (yes/no)?😁  ").strip().lower()
 
