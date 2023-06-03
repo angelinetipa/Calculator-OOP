@@ -10,5 +10,5 @@ class CalculatorTipa(SimpleCalculator):
         return exponential_power
     
     def integer_division(self, num1, num2):
-        intger_quotient = num1 // num2
-        return intger_quotient
+        integer_quotient = num1 // num2
+        return integer_quotient
