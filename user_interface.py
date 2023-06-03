@@ -35,7 +35,11 @@ class UserInterface:
     def display_product(self, num1, num2, answer):
         from colorama import Fore, Style
         print(f"{Fore.YELLOW}{num1} x {num2} = {answer}{Style.RESET_ALL}")
-        
+
+    def display_quotient(self, num1, num2, answer):
+        from colorama import Fore, Style
+        print(f"{Fore.CYAN}{num1} / {num2} = {answer}{Style.RESET_ALL}")
+
     # def last_message
     def last_message(self):
         from colorama import Style

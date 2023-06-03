@@ -18,5 +18,5 @@ class SimpleCalculator:
 
     # def divide
     def divide(self, num1, num2):
-        from colorama import Fore, Back, Style
-        print(f"{Fore.CYAN}{num1} / {num2} = {Style.RESET_ALL}", float(num1) / float(num2))
+        quotient = num1 / num2
+        return quotient
