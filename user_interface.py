@@ -28,10 +28,14 @@ class UserInterface:
         from colorama import Fore, Style
         print(f"{Fore.MAGENTA}{num1} + {num2} = {answer}{Style.RESET_ALL}")
     
-    def display_subtract(self, num1, num2, answer):
+    def display_difference(self, num1, num2, answer):
         from colorama import Fore, Style
         print(f"{Fore.GREEN}{num1} - {num2} = {answer}{Style.RESET_ALL}")
      
+    def display_product(self, num1, num2, answer):
+        from colorama import Fore, Style
+        print(f"{Fore.YELLOW}{num1} x {num2} = {answer}{Style.RESET_ALL}")
+        
     # def last_message
     def last_message(self):
         from colorama import Style
